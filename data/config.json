@@ -3,7 +3,7 @@
     "layout_type": "full-width",
     "style": "minimal",
     "palette": "green",
-    "mode": "light",
+    "mode": "auto",
     "base_font": "sans-serif",
     "header": {
         "title": "App",
