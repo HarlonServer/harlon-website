@@ -66,6 +66,10 @@ a {
   text-decoration: none;
 }
 
+::selection {
+  background: rgba(var(--primary-bg-color), 1);
+}
+
 .ms-alert {
   /* General */
   display: inline-block;
