@@ -12,7 +12,7 @@
   --default-bg-color: 40, 40, 40;
   --ligth-bg-color: 242, 242, 242;
   --default-border-color: 230, 230, 230;
-  --primary-bg-color: 47, 178, 41;
+  --primary-bg-color: 93, 168, 24;
   --secondary-bg-color: 70, 140, 180;
   --action-bg-color: 65, 83, 155;
   --action2-bg-color: 243, 128, 38;
@@ -1356,7 +1356,7 @@ select {
   -webkit-box-shadow: none;
           box-shadow: none;
   /* Font */
-  font-family: Inter, sans-serif;
+  font-family: Manrope, sans-serif;
   color: rgba(var(--main-text-color), 1);
   font-size: 0.98rem;
   /* Background */
@@ -8144,7 +8144,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Inter, sans-serif;
+  font-family: Manrope, sans-serif;
   padding: 0;
 }
 
