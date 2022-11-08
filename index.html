@@ -16,45 +16,641 @@
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="favicon.png">
   <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/minstyle.io.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/css/main.css">
+  <link rel="stylesheet" href="css/hcs.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <div class="ms-menu">
-    <div class="ms-menu-logo">
-        <a href="./index.html"><img src="favicon.ico"/></a>
+  <nav class="nsw-skip nsw-skip--light" aria-label="Skip to links">
+    <a href="#"><span>Skip to navigation</span></a>
+    <a href="#"><span>Skip to content</span></a>
+  </nav>
+  <div class="nsw-masthead nsw-masthead--light">
+    <div class="nsw-container"><strong>IP: play.harlonserver.net (Minecraft 1.17 recommended)</strong></div>
+  </div>
+
+  <header class="nsw-header">
+    <div class="nsw-header__container">
+      <div class="nsw-header__inner">
+        <div class="nsw-header__main">
+          <div class="nsw-header__waratah">
+            <a href="./index.html">
+              <img src="favicon.ico" width="64px" height="64px"/>
+              <span class="sr-only">Harlon City Server</span>
+            </a>
+          </div>
+          <div class="nsw-header__name">
+            <div class="nsw-header__title">Harlon City Server</div>
+          </div>
+        </div>
+        <div class="nsw-header__menu">
+          <button type="button" class="js-open-nav" aria-expanded="false" aria-controls="main-nav">
+            <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">menu</span>
+            <span><span class="sr-only">Open</span> Menu</span>
+          </button>
+        </div>
+      </div>
+  </header>
+  <nav class="nsw-main-nav" id="main-nav" aria-label="Main menu">
+    <div class="nsw-main-nav__header">
+      <div class="nsw-main-nav__title">Menu</div>
+      <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+        <span class="sr-only">Close Menu</span>
+      </button>
     </div>
-    <nav class="ms-menu-link">
-        <input type="checkbox" id="ms-menu-toggle" />
-        <label for="ms-menu-toggle" class="ms-menu-icon"><span class="material-icons">view_headline</span></label>
-        <ul>
-            <li><a href="./index.html" target="_blank" rel="noreferrer noopener">Home</a></li>
-            <li><a href="./Information.html" target="_blank" rel="noreferrer noopener">Information</a></li>
-            <li><a href="https://ht.harlonserver.net" target="_blank" rel="noreferrer noopener">HarlonTransit</a></li>
-            <li><a href="https://wiki.harlonserver.net" target="_blank" rel="noreferrer noopener">Wiki</a></li>
-            <li><a href="./forms-links.html" target="_blank" rel="noreferrer noopener">Forms & Links</a></li>
-            <li><a href="./credits.html" target="_blank" rel="noreferrer noopener">Credits</a></li>
-            <li><a href="./help-us.html" target="_blank" rel="noreferrer noopener"><button class="ms-btn ms-secondary">Help us</button></a></li>
-            <li><a href="https://dynmap.harlonserver.net" target="_blank" rel="noreferrer noopener"><button class="ms-btn ms-action2">Dynmap</button></a></li>
-        </ul>
-    </nav>
-</div>
+    <ul class="nsw-main-nav__list">
+      <li>
+        <a href="./index.html">
+          <span>Home</span>
+        </a>    </li>
+      <li>
+        <a href="./map.html">
+          <span>Transport Map</span>
+        </a>    </li>
+      <li>
+        <a href="https://harlontripplanner.muffinbardeyt.repl.co/" target="_blank" rel="noopener noreferrer">
+          <span>Trip Planner</span>
+        </a>    </li>
+      <li>
+        <a href="https://harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Main Harlon Website</span>
+        </a>    </li>
+      <li>
+        <a href="https://dynmap.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Dynmap</span>
+        </a>    </li>
+    </ul>
+  </nav>
+
+  <nav class="nsw-main-nav js-mega-menu" id="main-nav" aria-label="Main menu">
+    <div class="nsw-main-nav__header">
+      <div class="nsw-main-nav__title">Menu</div>
+      <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+        <span class="sr-only">Close Menu</span>
+      </button>
+    </div>
+    <ul class="nsw-main-nav__list">
+      <li>
+        <a href="/nsw-design-system/index.html#about-dpc">
+          <span>About Harlon</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+        </a>
+  
+        <div class="nsw-main-nav__sub-nav" id="sub-nav-914d7e2" role="region" aria-label="About DPC Submenu">
+          <div class="nsw-main-nav__header">
+            <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-914d7e2">
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+              <span>Back<span class="sr-only"> to previous menu</span></span> 
+            </button>
+  
+            <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+              <span class="sr-only">Close Menu</span>
+            </button>
+          </div>
+  
+          <div class="nsw-main-nav__title">
+            <a href="/nsw-design-system/index.html#about-dpc">
+              <span>About Harlon</span>
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+            </a>
+          </div>
+  
+          <div class="nsw-main-nav__description">Filium morte multavit si sine causa? quae fuerit causa, nollem.</div>
+  
+          <ul class="nsw-main-nav__sub-list">
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+              </a>
+              <div class="nsw-main-nav__sub-nav" id="sub-nav-1138" role="region" aria-label="Level 2 Submenu">
+                <div class="nsw-main-nav__header">
+                  <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-1138">
+                    <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                    <span>Back<span class="sr-only"> to previous menu</span></span> 
+                  </button>
+  
+                  <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+                    <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                    <span class="sr-only">Close Menu</span>
+                  </button>
+                </div>
+  
+                <div class="nsw-main-nav__title">
+                  <a href="/nsw-design-system/index.html#level-2"><span>Level 2</span></a>
+                </div>
+  
+                <ul class="nsw-main-nav__sub-list">
+                  <li>
+                    <a href="/nsw-design-system/index.html#level-3">
+                      <span>Level 3</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/nsw-design-system/index.html#level-3">
+                      <span>Level 3</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/nsw-design-system/index.html#level-3">
+                      <span>Level 3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="/nsw-design-system/index.html#updates">
+          <span>Updates</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+        </a>
+  
+        <div class="nsw-main-nav__sub-nav" id="sub-nav-3250fbee" role="region" aria-label="Updates Submenu">
+          <div class="nsw-main-nav__header">
+            <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-3250fbee">
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+              <span>Back<span class="sr-only"> to previous menu</span></span> 
+            </button>
+  
+            <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+              <span class="sr-only">Close Menu</span>
+            </button>
+          </div>
+  
+          <div class="nsw-main-nav__title">
+            <a href="/nsw-design-system/index.html#updates">
+              <span>Updates</span>
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+            </a>
+          </div>
+  
+          <div class="nsw-main-nav__description"></div>
+  
+          <ul class="nsw-main-nav__sub-list">
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="/nsw-design-system/index.html#publications">
+          <span>Publications</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+        </a>
+  
+        <div class="nsw-main-nav__sub-nav" id="sub-nav-bd48c03b" role="region" aria-label="Publications Submenu">
+          <div class="nsw-main-nav__header">
+            <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-bd48c03b">
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+              <span>Back<span class="sr-only"> to previous menu</span></span> 
+            </button>
+  
+            <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+              <span class="sr-only">Close Menu</span>
+            </button>
+          </div>
+  
+          <div class="nsw-main-nav__title">
+            <a href="/nsw-design-system/index.html#publications">
+              <span>Publications</span>
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+            </a>
+          </div>
+  
+          <div class="nsw-main-nav__description"></div>
+  
+          <ul class="nsw-main-nav__sub-list">
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="/nsw-design-system/index.html#tools-resources">
+          <span>Tools & Resources</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+        </a>
+  
+        <div class="nsw-main-nav__sub-nav" id="sub-nav-c457a536" role="region" aria-label="Tools & Resources Submenu">
+          <div class="nsw-main-nav__header">
+            <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-c457a536">
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+              <span>Back<span class="sr-only"> to previous menu</span></span> 
+            </button>
+  
+            <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+              <span class="sr-only">Close Menu</span>
+            </button>
+          </div>
+  
+          <div class="nsw-main-nav__title">
+            <a href="/nsw-design-system/index.html#tools-resources">
+              <span>Tools & Resources</span>
+              <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+            </a>
+          </div>
+  
+          <div class="nsw-main-nav__description"></div>
+  
+          <ul class="nsw-main-nav__sub-list">
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+            <li>
+              <a href="/nsw-design-system/index.html#level-2">
+                <span>Level 2</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="/nsw-design-system/index.html#contact-us">
+          <span>Contact us</span>
+        </a>    </li>
+    </ul>
+</nav>
+
+  <div class="nsw-global-alert js-global-alert" role="alert">
+    <div class="nsw-global-alert__wrapper">
+      <div class="nsw-global-alert__content">
+        <div class="nsw-global-alert__title">Help us out!</div>
+        <p>We are evolving Harlon yet again with a major update, but we need your help! The staff team has been planning a custom jobs plugin for a while now and we are ready to make this dream a reality! As this is a huge plugin, the cost for it to be developed is $230USD. If you can, chip in to help make this a reality!</p>
+      </div>
+      <p><a href="https://store.harlonserver.net" class="nsw-button nsw-button--white">Donate here</a></p>
+      <button class="nsw-icon-button js-close-alert" type="button" aria-expanded="true">
+        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+        <span class="sr-only">Close message</span>
+      </button>
+    </div>
+  </div>
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <div class="ms-hero ms-large ms-center">
-    <div class="ms-hero-background">
-        <img src="./img/hero.png" alt="Picture of the Harlon City skyline"/>
-    </div>
-    <div class="ms-hero-body ms-center">
-        <h1 class="ms-hero-title">Harlon City Server</h1>
-        <p class="ms-hero-subtitle">Join today at play.harlonserver.net  <div class="ms-label ms-large">Minecraft 1.17-1.19</div></p>
+  <div class="nsw-hero-banner nsw-hero-banner--dark">
+    <div class="nsw-hero-banner__container">
+      <div class="nsw-hero-banner__wrapper">
+        <div class="nsw-hero-banner__content">
+          <h1>Welcome to Harlon.</h1>
+          <p class="nsw-intro">A City-RP Minecraft server with a flourishing community and amazing player experiences.</p>
+          <p class="nsw-intro">Join now at <strong>play.harlonserver.net</strong> - Minecraft 1.17 recommended, 1.17-1.19 supported</p>
+          <a href="https://discord.gg/qMmk8MuEBz" class="nsw-button nsw-button--white" target="_blank" rel="noreferrer noopener">Join our Discord Server</a></p>
+        </div>
+        <div class="nsw-hero-banner__box">
+          <img class="nsw-hero-banner__image" src="./img/hero.png" alt="Image of the Harlon City skyline." />
+        </div>
+      </div>
     </div>
   </div>
 
-  <br>
+  <div class="nsw-m-right-md nsw-m-left-md">
+  <div class="nsw-grid">
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__image">
+          <img src="./img/unique.jfif" alt="HarlonTransit bus">
+        </div>
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="./welcome.html">Start Here</a>
+          </div>
+          <div class="nsw-card__copy">New to Harlon? Learn more about Harlon here and what it can offer you.</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__image">
+          <img src="./img/dynmap.png" alt="Screenshot of Harlon City Server's dynmap">
+        </div>
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="https://dynmap.harlonserver.net" target="_blank" rel="noopener noreferrer">Dynmap</a>
+          </div>
+          <div class="nsw-card__copy">Find points of interest, public transport, landmarks and more on the server and track your location in real time.</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__image">
+          <img src="./img/slideshow-2.png" alt="HarlonTransit Metro train">
+        </div>
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="#" target="_blank" rel="noopener noreferrer">About Harlon</a>
+          </div>
+          <div class="nsw-card__copy">View information about our staff, history and more.</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1>Quick Links</h1>
+  <div class="nsw-grid">
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="https://appeal.harlonserver.net" target="_blank" rel="noopener noreferrer">Appeal a ban</a>
+          </div>
+          <div class="nsw-card__copy">If you have been banned from Harlon but believe you should be allowed back onto the server, fill out an appeal application here.</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="https://builder.harlonserver.net" target="_blank" rel="noopener noreferrer">Builder application</a>
+          </div>
+          <div class="nsw-card__copy">Want to join our building team to help Harlon grow? Find more details and apply here!</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="https://helper.harlonserver.net" target="_blank" rel="noopener noreferrer">Helper application</a>
+          </div>
+          <div class="nsw-card__copy">Interested in joining the staff team and making a lasting contribution to Harlon? See what joining the staff team is like and apply here.</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nsw-grid">
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="https://wiki.harlonserver.net" target="_blank" rel="noopener noreferrer">HCS Wiki</a>
+          </div>
+          <div class="nsw-card__copy">Harlon's wiki provides additional, extensive information on the server, and the best part is that <em>you</em> can contribute too!</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="https://vote.harlonserver.net" target="_blank" rel="noopener noreferrer">Vote for Harlon</a>
+          </div>
+          <div class="nsw-card__copy">Vote for us on server voting pages to help even more players discover what Harlon has to offer. Even better, as a way of saying thanks, we'll give you £40 in-game each time you vote!</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+    <div class="nsw-col nsw-col-md-6 nsw-col-lg-4">
+      <div class="nsw-card">
+        <div class="nsw-card__content">
+          <div class="nsw-card__title">
+            <a href="https://store.harlonserver.net" target="_blank" rel="noopener noreferrer">Donate</a>
+          </div>
+          <div class="nsw-card__copy">Chip in to help keep Harlon running through our store! We appreciate any and all contributions that help us recouperate these costs.</div>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <h1>You might also be looking for...</h1>
+  <div class="nsw-link-list">
+    <ul>
+      <li>
+        <a href="#">
+          <span>Government/State Websites</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>Public Transport Information</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://docs.google.com/document/d/1hFWs6W00mhcV7rzy7zJ64F8UkeVLGyoTJgcYAEp8-Tw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <span>Road Rules</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://discord.gg/cGmhtvhqka" target="_blank" rel="noopener noreferrer">
+          <span>Harlon Hockey League (HHL) Discord Server</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://discord.gg/yx5czgXVtn" target="_blank" rel="noopener noreferrer">
+          <span>United Nations Discord Server</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+
   <div class="ms-card ms-inline">
     <div class="row">
         <div class="ms-card-pic col-md-4">
@@ -97,34 +693,28 @@
   </div>
 </div>
 
-<div class="ms-card ms-inline">
-  <div class="row">
-      <div class="ms-card-pic col-md-4">
-              <img
-                  src="./img/dynmap.png"
-                  alt="Screenshot of Harlon's dynmap"
-              />
-      </div>
-      <div class="col-md-5">
-          <div class="ms-card-title">
-              <h2>Need to find your way?</h2>
-          </div>
-          <div class="ms-card-content">
-              <p>
-                The server dynmap is the best way to navigate the city, find a player-owned shop, the nearest station, and many more things!
-              </p>
-          </div>
-      </div>
-      <div class="ms-card-btn col-md-2">
-        <a href="https://dynmap.harlonserver.net" target="_blank" rel="noreferrer noopener"><button class="ms-btn ms-fullwidth ms-outline ms-primary">Open dynmap</button></a>
-    </div>
-  </div>
-</div>
 </body>
 
-<footer class="ms-footer ms-small">
-  <div class="container">
-    <p>&copy; <b>Harlon City Server</b> - <a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noreferrer noopener">Discord</a> - <a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noreferrer noopener">YouTube</a> - <a href="https://twitter.com/HarlonServer" target="_blank" rel="noreferrer noopener">Twitter</a> - <a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noreferrer noopener">TikTok</a> - <a href="https://www.github.com/HarlonServer" target="_blank" rel="noreferrer noopener">GitHub</a></p>
+<footer class="nsw-footer nsw-footer--dark">
+  <div class="nsw-footer__lower">
+    <div class="nsw-container">
+      <p>IP: <strong>play.harlonserver.net</strong> - Minecraft 1.17 recommended.</p>
+      <hr>
+      <ul>
+        <li><a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noopener noreferrer">Discord</a></li>
+        <li><a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+        <li><a href="https://twitter.com/HarlonServer" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noopener noreferrer">Tiktok</a></li>
+        <li><a href="https://www.github.com/HarlonServer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://store.harlonserver.net" target="_blank" rel="noopener noreferrer">Donate</a></li>
+        <li><a href="https://vote.harlonserver.net" target="_blank" rel="noopener noreferrer">Vote</a></li>
+        <li><a href="./credits.html">Credits</a></li>
+      </ul>
+      <div class="nsw-footer__info">
+        <div class="nsw-footer__copyright">Copyright © Harlon City Server</div>
+        <div class="nsw-footer__built">Based on the <a href="https://github.com/digitalnsw/nsw-design-system" target="_blank" rel="noopener noreferrer">NSW Design System</a></div>
+      </div>
+    </div>
   </div>
 </footer>
 
