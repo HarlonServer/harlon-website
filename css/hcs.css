@@ -4,7 +4,7 @@
     /* Colours */
     --nsw-brand-dark: #5DA818;
     --nsw-brand-light: var(--nsw-palette-blue-04);
-    --nsw-brand-accent: var(--nsw-palette-red-02);
+    --nsw-brand-accent: #5DA818;
     --nsw-brand-supplementary: var(--nsw-palette-blue-02);
   
     --nsw-text-dark: var(--nsw-palette-grey-01);
