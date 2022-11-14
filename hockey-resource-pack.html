@@ -10,7 +10,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://harlonserver.net">
   <meta name="og:description" content="Experience hockey in Harlon with our hockey resource pack - you will need this to be able to play a game.">
-  <meta property="og:image" content="img/hockey-1.jpg">
+  <meta property="og:image" content="https://harlonserver.net/img/hockey-2.jpg">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,58 +19,207 @@
   <link rel="apple-touch-icon" href="favicon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/minstyle.io.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/css/main.css">
+  <link rel="stylesheet" href="css/hcs.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <div class="ms-menu">
-    <div class="ms-menu-logo">
-        <a href="./index.html"><img src="favicon.ico"/></a>
+  <nav class="nsw-skip nsw-skip--light" aria-label="Skip to links">
+    <a href="#"><span>Skip to navigation</span></a>
+    <a href="#"><span>Skip to content</span></a>
+  </nav>
+  <div class="nsw-masthead nsw-masthead--light">
+    <div class="nsw-container"><strong>IP: play.harlonserver.net (Minecraft 1.17 recommended)</strong></div>
+  </div>
+
+  <header class="nsw-header">
+    <div class="nsw-header__container">
+      <div class="nsw-header__inner">
+        <div class="nsw-header__main">
+          <div class="nsw-header__waratah">
+            <a href="./index.html">
+              <img src="favicon.ico" width="64px" height="64px"/>
+              <span class="sr-only">Harlon City Server</span>
+            </a>
+          </div>
+          <div class="nsw-header__name">
+            <div class="nsw-header__title">Harlon City Server</div>
+          </div>
+        </div>
+        <div class="nsw-header__menu">
+          <button type="button" class="js-open-nav" aria-expanded="false" aria-controls="main-nav">
+            <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">menu</span>
+            <span><span class="sr-only">Open</span> Menu</span>
+          </button>
+        </div>
+      </div>
+  </header>
+  <nav class="nsw-main-nav" id="main-nav" aria-label="Main menu">
+    <div class="nsw-main-nav__header">
+      <div class="nsw-main-nav__title">Menu</div>
+      <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+        <span class="sr-only">Close Menu</span>
+      </button>
     </div>
-    <nav class="ms-menu-link">
-        <input type="checkbox" id="ms-menu-toggle" />
-        <label for="ms-menu-toggle" class="ms-menu-icon"><span class="material-icons">view_headline</span></label>
-        <ul>
-          <li><a href="./index.html" target="_blank" rel="noreferrer noopener">Home</a></li>
-          <li><a href="./Information.html" target="_blank" rel="noreferrer noopener">Information</a></li>
-          <li><a href="https://ht.harlonserver.net" target="_blank" rel="noreferrer noopener">HarlonTransit</a></li>
-          <li><a href="https://wiki.harlonserver.net" target="_blank" rel="noreferrer noopener">Wiki</a></li>
-          <li><a href="./forms-links.html" target="_blank" rel="noreferrer noopener">Forms & Links</a></li>
-          <li><a href="./credits.html" target="_blank" rel="noreferrer noopener">Credits</a></li>
-          <li><a href="./help-us.html" target="_blank" rel="noreferrer noopener"><button class="ms-btn ms-secondary">Help us</button></a></li>
-          <li><a href="https://dynmap.harlonserver.net" target="_blank" rel="noreferrer noopener"><button class="ms-btn ms-action2">Dynmap</button></a></li>
-        </ul>
-    </nav>
-</div>
+    <ul class="nsw-main-nav__list">
+      <li>
+        <a href="./index.html">
+          <span>Home</span>
+        </a>    </li>
+      <li>
+        <a href="./start-here.html">
+          <span>Start Here</span>
+          </a>    </li>
+      <li>
+        <a href="./map.html">
+          <span>About</span>
+        </a>    </li>
+      <li>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <span>Getting Around</span>
+        </a>    </li>
+        <li>
+          <a href="https://dynmap.harlonserver.net" target="_blank" rel="noopener noreferrer">
+            <span>Government</span>
+          </a>    </li>
+      <li>
+        <a href="https://wiki.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Wiki</span>
+        </a>    </li>
+      <li>
+        <a href="https://dynmap.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Dynmap</span>
+        </a>    </li>
+        <li>
+          <a href="https://vote.harlonserver.net">
+            <span>Vote</span>
+          </a>    </li>
+        
+    </ul>
+  </nav>
+
+  <div class="nsw-global-alert js-global-alert" role="alert" style="background-color: orange;">
+    <div class="nsw-global-alert__wrapper">
+      <div class="nsw-global-alert__content">
+        <div class="nsw-global-alert__title">Help us out!</div>
+        <p>We are evolving Harlon yet again with a major update, but we need your help! The staff team has been planning a custom jobs plugin for a while now and we are ready to make this dream a reality! As this is a huge plugin, the cost for it to be developed is $230USD. If you can, chip in to help make this a reality!</p>
+      </div>
+      <p><a href="https://store.harlonserver.net" class="nsw-button nsw-button--white">Contribute here</a></p>
+      <button class="nsw-icon-button js-close-alert" type="button" aria-expanded="true">
+        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+        <span class="sr-only">Close message</span>
+      </button>
+    </div>
+  </div>
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <div class="ms-hero ms-large ms-center">
-    <div class="ms-hero-background">
-        <img src="./img/hockey-2.jpg" alt=""/>
+  <div class="nsw-hero-banner nsw-hero-banner--dark">
+    <div class="nsw-hero-banner__container">
+      <div class="nsw-hero-banner__wrapper">
+        <div class="nsw-hero-banner__content">
+          <h1>Hockey Resource Pack</h1>
+          <p class="nsw-intro">Experience hockey in Harlon with our hockey resource pack - you will need this to be able to play a game.</p>
+          <a href="https://harlonserver.net/HHL/HockeyBlocky.zip" class="nsw-button nsw-button--white" target="_blank" rel="noreferrer noopener">Download now</a></p>
+        </div>
+        <div class="nsw-hero-banner__box">
+          <img class="nsw-hero-banner__image" src="./img/hockey-2.jpg" alt="Hockey player uniforms being displayed on armour stands." />
+        </div>
+      </div>
     </div>
-    <div class="ms-hero-body ms-center">
-        <h1 class="ms-hero-title" style="color: white;">Hockey Resource Pack</h1>
-        <p class="ms-hero-subtitle" style="color: white;">Experience hockey in Harlon with our hockey resource pack - you will need this to be able to play a game.</p>
-        <a href="https://harlonserver.net/HHL/HockeyBlocky.zip"><div class="ms-btn ms-primary">Download now</div></a>
+  </div>
+
+  <div class="nsw-m-right-md nsw-m-left-md nsw-p-top-md nsw-p-bottom-md">
+    <div class="nsw-accordion js-accordion">
+      <div class="nsw-accordion__toggle">
+        <button type="button">Expand all</button>
+        <button type="button">Collapse all</button>
+      </div>
+      <div class="nsw-accordion__title">Install on Windows</div>
+      <div class="nsw-accordion__content">
+        <div class="nsw-steps nsw-steps--fill nsw-steps--counters">
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>Right click the Windows icon and press <kbd>Run</kbd>.</p>
+            </div>
+          </div>
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>Write <kbd>%appdata%</kbd> and press <kbd>OK</kbd>.</p>
+            </div>
+          </div>
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>Open <kbd>.minecraft</kbd> and then <kbd>resourcepacks</kbd>, and then drag the folder into the <kbd>resourcepacks</kbd> folder. Do NOT unzip the file.</p>
+            </div>
+          </div>
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>Press <kbd>F3+T</kbd> whilst playing Minecraft to reload texture packs, or restart Minecraft.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="nsw-accordion__title">Install on MacOS</div>
+      <div class="nsw-accordion__content">
+        <div class="nsw-steps nsw-steps--fill nsw-steps--counters">
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>Click on the search button in the MacOS navigation bar.</p>
+            </div>
+          </div>
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>Write <kbd>~/library/Application Support/minecraft</kbd>, a minecraft folder should then appear below.</p>
+            </div>
+          </div>
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>Open the <kbd>minecraft</kbd> folder and then <kbd>resourcepacks</kbd>, and then drag the HHL Texture Pack folder into the kbd>resourcepacks</kbd> folder. The file should be unzipped. </p>
+            </div>
+          </div>
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>Press <kbd>F3+T</kbd> whilst playing Minecraft to reload texture packs, or restart Minecraft.</p>
+            </div>
+          </div>
+          <div class="nsw-steps__item">
+            <div class="nsw-steps__content">
+              <p>On the main menue, click on <kbd>Options</kbd>, or whilst in-game click <kbd>ESC</kbd> and then <kbd>Resource Packs</kbd>. Select the resource pack with the HHL logo and you're good to go!</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     
   </div>
-
-  <div class="ms-div-center">
-  <h2>Installing the resource pack on Windows</h2>
-  <p><hr/>1. Right click the Windows icon and press <kbd>Run</kbd>.</p>
-  <p><hr/>2. Write <kbd>%appdata%</kbd> and press <kbd>OK</kbd>.</p>
-  <p><hr/>3. Open <kbd>.minecraft</kbd> and then <kbd>resourcepacks</kbd>, and then drag the folder into the <kbd>resourcepacks</kbd> folder. Do NOT unzip the file.
-  <p><hr/>4. Press <kbd>F3+T</kbd> whilst playing Minecraft to reload texture packs, or restart Minecraft. <hr/>5. On the main menu, click on <kbd>Options</kbd>, or whilst in-game click <kbd>ESC</kbd> and then <kbd>Resource Packs</kbd>. Select the resource pack with the Harlon Hockey League (HHL) logo and you're good to go!</p>
-  </div>
+<script src="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/js/main.min.js"></script>
+<script>window.NSW.initSite()</script>
 </body>
 
-<footer class="ms-footer ms-small">
-  <div class="container">
-    <p>&copy; <b>Harlon City Server</b> - <a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noreferrer noopener">Discord</a> - <a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noreferrer noopener">YouTube</a> - <a href="https://twitter.com/HarlonServer" target="_blank" rel="noreferrer noopener">Twitter</a> - <a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noreferrer noopener">TikTok</a> - <a href="https://www.github.com/HarlonServer" target="_blank" rel="noreferrer noopener">GitHub</a></p>
+<footer class="nsw-footer nsw-footer--dark">
+  <div class="nsw-footer__lower">
+    <div class="nsw-container">
+      <p>IP: <strong>play.harlonserver.net</strong> - Minecraft 1.17 recommended.</p>
+      <hr>
+      <ul>
+        <li><a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noopener noreferrer">Discord</a></li>
+        <li><a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+        <li><a href="https://twitter.com/HarlonServer" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noopener noreferrer">Tiktok</a></li>
+        <li><a href="https://www.github.com/HarlonServer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://store.harlonserver.net" target="_blank" rel="noopener noreferrer">Donate</a></li>
+        <li><a href="https://vote.harlonserver.net" target="_blank" rel="noopener noreferrer">Vote</a></li>
+        <li><a href="./credits.html">Credits</a></li>
+      </ul>
+      <div class="nsw-footer__info">
+        <div class="nsw-footer__copyright">Copyright © Harlon City Server</div>
+        <div class="nsw-footer__built">Based on the <a href="https://github.com/digitalnsw/nsw-design-system" target="_blank" rel="noopener noreferrer">NSW Design System</a></div>
+      </div>
+    </div>
   </div>
 </footer>
-
 </html>
