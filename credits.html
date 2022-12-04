@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="js" lang="en" data-theme="dark">
+<html class="js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -10,141 +10,367 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://harlonserver.net">
   <meta name="og:description" content="Harlon makes use of many open-source plugins, resources and more to create the best experience for our players. It's only right we credit them on a dedicated page.">
-  <meta property="og:image" content="./img/hero.png">
+  <meta property="og:image" content="https://harlonserver.net/img/city-block.jpg">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="favicon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/minstyle.io.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/css/main.css">
+  <link rel="stylesheet" href="css/hcs.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <div class="ms-menu">
-    <div class="ms-menu-logo">
-        <a href="./index.html"><img src="favicon.ico"/></a>
+  <nav class="nsw-skip nsw-skip--light" aria-label="Skip to links">
+    <a href="#"><span>Skip to navigation</span></a>
+    <a href="#"><span>Skip to content</span></a>
+  </nav>
+  <div class="nsw-masthead nsw-masthead--light">
+    <div class="nsw-container"><strong>IP: play.harlonserver.net (Minecraft 1.17 recommended)</strong></div>
+  </div>
+
+  <header class="nsw-header">
+    <div class="nsw-header__container">
+      <div class="nsw-header__inner">
+        <div class="nsw-header__main">
+          <div class="nsw-header__waratah">
+            <a href="./index.html">
+              <img src="favicon.ico" width="64px" height="64px"/>
+              <span class="sr-only">Harlon City Server</span>
+            </a>
+          </div>
+          <div class="nsw-header__name">
+            <div class="nsw-header__title">Harlon City Server</div>
+          </div>
+        </div>
+        <div class="nsw-header__menu">
+          <button type="button" class="js-open-nav" aria-expanded="false" aria-controls="main-nav">
+            <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">menu</span>
+            <span><span class="sr-only">Open</span> Menu</span>
+          </button>
+        </div>
+      </div>
+  </header>
+  <nav class="nsw-main-nav" id="main-nav" aria-label="Main menu">
+    <div class="nsw-main-nav__header">
+      <div class="nsw-main-nav__title">Menu</div>
+      <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+        <span class="sr-only">Close Menu</span>
+      </button>
     </div>
-    <nav class="ms-menu-link">
-        <input type="checkbox" id="ms-menu-toggle" />
-        <label for="ms-menu-toggle" class="ms-menu-icon"><span class="material-icons">view_headline</span></label>
-        <ul>
-            <li><a href="./index.html" target="_blank" rel="noreferrer noopener">Home</a></li>
-            <li><a href="./Information.html" target="_blank" rel="noreferrer noopener">Information</a></li>
-            <li><a href="https://ht.harlonserver.net" target="_blank" rel="noreferrer noopener">HarlonTransit</a></li>
-            <li><a href="https://wiki.harlonserver.net" target="_blank" rel="noreferrer noopener">Wiki</a></li>
-            <li><a href="./forms-links.html" target="_blank" rel="noreferrer noopener">Forms & Links</a></li>
-            <li><a href="./credits.html" target="_blank" rel="noreferrer noopener">Credits</a></li>
-            <li><a href="./help-us.html" target="_blank" rel="noreferrer noopener"><button class="ms-btn ms-secondary">Help us</button></a></li>
-            <li><a href="https://dynmap.harlonserver.net" target="_blank" rel="noreferrer noopener"><button class="ms-btn ms-action2">Dynmap</button></a></li>
-        </ul>
-    </nav>
-</div>
+    <ul class="nsw-main-nav__list">
+      <li>
+        <a href="./index.html">
+          <span>Home</span>
+        </a>    </li>
+      <li>
+        <a href="./start-here.html">
+          <span>Start Here</span>
+          </a>    </li>
+      <li>
+        <a href="./about.html">
+          <span>About</span>
+        </a>    </li>
+      <li>
+        <a href="https://ht.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>HarlonTransit</span>
+        </a>    </li>
+  <!--<li>
+          <a href="https://dynmap.harlonserver.net" target="_blank" rel="noopener noreferrer">
+            <span>Government</span>
+          </a>    </li>-->
+      <li>
+        <a href="https://wiki.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Wiki</span>
+        </a>    </li>
+      <li>
+        <a href="https://dynmap.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Dynmap</span>
+        </a>    </li>
+        <li>
+          <a href="./vote.html">
+            <span>Vote</span>
+          </a>    </li>
+        
+    </ul>
+  </nav>
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <div class="ms-hero ms-large ms-center">
-    <div class="ms-hero-background">
-        <img src="./img/hero.png" alt="Picture of the Harlon City skyline"/>
-    </div>
-    <div class="ms-hero-body ms-center">
-        <h1 class="ms-hero-title">Credits</h1>
-        <p class="ms-hero-subtitle">Harlon makes use of many open-source plugins, resources and more to create the best experience for our players. It's only right we credit them on a dedicated page.</p>
+  <div class="nsw-hero-banner nsw-hero-banner--dark">
+    <div class="nsw-hero-banner__container">
+      <div class="nsw-hero-banner__wrapper">
+        <div class="nsw-hero-banner__content">
+          <h1>Credits</h1>
+          <p class="nsw-intro">Harlon makes use of many open-source plugins, resources and more to create the best experience for our players. It's only right we credit them on a dedicated page.</p>
+        </div>
+        <div class="nsw-hero-banner__box">
+          <img class="nsw-hero-banner__image" src="./img/city-block.jpg" alt="The interior of Harlon's stock exchange." />
+        </div>
+      </div>
     </div>
   </div>
 
-  <br>
-
-  
-  <div class="ms-card ms-inline">
-    <div class="row">
-        <div class="ms-card-pic col-md-4">
-            <a href="#" target="_blank">
-                <img
-                    src="./img/city-block.jpg"
-                    alt="..."
-                />
-            </a>
+  <div class="nsw-m-right-md nsw-m-left-md nsw-p-top-md nsw-p-bottom-md">
+    <div class="nsw-accordion js-accordion">
+        <div class="nsw-accordion__toggle">
+          <button type="button">Expand all</button>
+          <button type="button">Collapse all</button>
         </div>
-        <div class="col-md-5">
-            <div class="ms-card-title">
-                <h2>Donate to us</h2>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                  Running a Minecraft server comes with ongoing costs, so we appreciate any and all donations that help us recouperate these costs.
-                </p>
-            </div>
-        </div>
-        <div class="ms-card-btn col-md-2">
-          <a href="https://donate.harlonserver.net"><button class="ms-btn ms-fullwidth ms-outline ms-primary">Donate to us</button></a>
-      </div>
-    </div>
-
-    <div class="ms-card ms-inline">
-        <div class="row">
-            <div class="ms-card-pic col-md-4">
-                <a href="#" target="_blank">
-                    <img
-                        src="./img/vehicles.jpg"
-                        alt="..."
-                    />
-                </a>
-            </div>
-            <div class="col-md-5">
-                <div class="ms-card-title">
-                    <h2>Vote for us</h2>
-                </div>
-                <div class="ms-card-content">
-                    <p>
-                      Vote for us on server voting pages to help even more players discover what Harlon has to offer. Even better, as a way of saying thanks, we'll give you £40 in-game each time you vote!
-                    </p>
-                </div>
-            </div>
-                <div>
-                    <div class="ms-btn-group">
-                      <a href="https://minecraftservers.org/vote/582135" class="ms-btn ms-primary">Vote on Minecraft Servers</a>
-                      <a href="https://minecraft-mp.com/server/255128/vote/" class="ms-btn ms-primary">Vote on Minecraft MP</a>
-                      <a href="https://topg.org/minecraft-servers/server-606978" class="ms-btn ms-primary">Vote on TopG</a>
-                      <a href="https://www.planetminecraft.com/server/harlon-city-server/vote/" class="ms-btn ms-primary">Vote on Planet Minecraft</a>
-                      <a href="https://minecraft-server-list.com/server/457874/vote/" class="ms-btn ms-primary">Vote on Minecraft Server List</a>
-                    </div>
-                  </div>
-          </div>
-        </div>
-
-        
-        <div class="ms-card ms-inline">
-            <div class="row">
-                <div class="ms-card-pic col-md-4">
-                    <a href="#" target="_blank">
-                        <img
-                            src="./img/stock-exchange.jpg"
-                            alt="..."
-                        />
-                    </a>
-                </div>
-                <div class="col-md-5">
-                    <div class="ms-card-title">
-                        <h2>Volunteer</h2>
-                    </div>
-                    <div class="ms-card-content">
-                        <p>
-                          Like what Harlon has to offer? Why not join our building or staff teams and help build something amazing? Our Builder and Helper application forms will tell you more about joining either the building or staff teams. 
-                        </p>
-                    </div>
-                </div>
-                <div class="ms-card-btn col-md-2">
-                  <a href="./forms-links.html"><button class="ms-btn ms-fullwidth ms-outline ms-primary">Take me to those forms!</button></a>
+        <div class="nsw-accordion__title">Server Plugins</div>
+        <div class="nsw-accordion__content">
+            <div class="nsw-table nsw-table--striped nsw-table--bordered" tabindex="0">
+                <table>
+                  <caption>Table caption for responsive scroll version</caption>
+                  <thead>
+                    <tr>
+                      <th width="20%">Plugin Name</th>
+                      <th width="20%">Author</th>
+                      <th width="20%">Licence</th>
+                      <th width="40%">Purpose</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p><a href="#">Plugin</a></p>
+                      </td>
+                      <td>
+                        <p>Prototypes that include brief notes or comments that explain the rationale behind features and design choices.</p>
+                      </td>
+                      <td>
+                        <p>Help give context behind decisions and reminds team members why specific design elements were selected.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><a href="#">Storyboards</a></p>
+                      </td>
+                      <td>
+                        <p>Sequential images showing the main interactions or events that take place throughout a service.</p>
+                      </td>
+                      <td>
+                        <p>Help team members and stakeholders visualize the intended user experience.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><a href="#">Service blueprint</a></p>
+                      </td>
+                      <td>
+                        <p>A diagram that visualizes a new process or service and how the organization’s internal processes, people, systems and policies will support it.</p>
+                      </td>
+                      <td>
+                        <p>Helps organizations understand what will be needed for a successful implementation.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><a href="#">User stories</a></p>
+                      </td>
+                      <td>
+                        <p>Short sentences written from the perspective of users, describing their need and the reason behind.</p>
+                      </td>
+                      <td>
+                        <p>Help document the different needs that a service must address, shifting the focus from creating detailed requirements to discussing user needs within a specific context.</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-            </div>
+        </div>
+        <div class="nsw-accordion__title">HomeBuilder program</div>
+        <div class="nsw-accordion__content">
+          <p>If you are building a new home, you could also be able to apply for the Australian Government grant of $25,000. To be eligible you must:</p><ul><li>sign the contract between 4 June 2020 and 31 December 2020</li><li>commence within 3 months of the contract date.</li></ul><p>HomeBuilder complements the NSW Government’s existing First Home Owner Grant and stamp duty concessions.</p>
+        </div>
+        <div class="nsw-accordion__title">Miscellaneous</div>
+        <div class="nsw-accordion__content">
+            <div class="nsw-table nsw-table--striped nsw-table--bordered" tabindex="0">
+                <table>
+                  <thead>
+                    <tr>
+                      <th width="20%">Resource Name</th>
+                      <th width="20%">Author</th>
+                      <th width="20%">Licence</th>
+                      <th width="40%">Purpose</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p><a href="https://github.com/sharanda/manrope">Manrope</a></p>
+                      </td>
+                      <td>
+                        <p>Mikhail Sharanda</p>
+                      </td>
+                      <td>
+                        <p><a href="https://github.com/sharanda/manrope/blob/master/OFL.txt">Open Font License 1.1</a>
+                      </td>
+                      <td>
+                          <p>Harlon City Server brand font.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><a href="https://github.com/google/material-design-icons">Material Icons</a></p>
+                      </td>
+                      <td>
+                        <p>Google</p>
+                      </td>
+                      <td>
+                        <p><a href="https://github.com/google/material-design-icons/blob/master/LICENSE">Apache 2.0</a></p>
+                      </td>
+                      <td>
+                          <p>Icons for the <a href="https://github.com/HarlonServer/HIWS">Integrated Wayfinding System (HIWS).</a></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><a href="https://github.com/digitalnsw/nsw-design-system">New South Wales Design System</a></p>
+                      </td>
+                      <td>
+                        <p>Digital.NSW/NSW Department of Customer Service</p>
+                      </td>
+                      <td>
+                        <p><a href="https://github.com/digitalnsw/nsw-design-system/blob/master/LICENSE">MIT</a></p>
+                      </td>
+                      <td>
+                          <p>Base framework for the Harlon City Server website (you're on it right now!) and the <a href="https://ht.harlonserver.net">HarlonTransit website.</a></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><a href="https://github.com/h5bp/html5-boilerplate">HTML5 Boilerplate</a></p>
+                      </td>
+                      <td>
+                        <p>H5BP</p>
+                      </td>
+                      <td>
+                        <p><a href="https://github.com/h5bp/html5-boilerplate/blob/main/LICENSE.txt">MIT</a></p>
+                      </td>
+                      <td>
+                          <p>Base file structure/template for all Harlon City Server-related websites (including this one).</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <p><a href="https://one.com">One</a></p>
+                      </td>
+                      <td>
+                          <p>one.com</p>
+                      </td>
+                      <td>
+                          <p>N/A</p>
+                      </td>
+                      <td>
+                          <p>Domain registrar for the harlonserver.net domain</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <p><a href="https://pages.github.com">GitHub Pages</a></p>
+                      </td>
+                      <td>
+                          <p>GitHub, Inc.</p>
+                      </td>
+                      <td>
+                          <p>N/A</p>
+                      </td>
+                      <td>
+                          <p>Web hosting provider for HCS websites and files (excluding the SHIFT banking system).</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <p><a href="https://bloom.host">Bloom.host</a></p>
+                      </td>
+                      <td>
+                          <p>AME Hosting, LLC.</p>
+                      </td>
+                      <td>
+                          <p>N/A</p>
+                      </td>
+                      <td>
+                          <p>Minecraft server hosting provider.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <p><a href="https://tebex.io">Tebex</a></p>
+                      </td>
+                      <td>
+                          <p>Tebex Limited (part of Overwolf)</p>
+                      </td>
+                      <td>
+                          <p>N/A</p>
+                      </td>
+                      <td>
+                          <p><a href="https://store.harlonserver.net">Server store</a> provider.</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+        </div>
+      </div>
+  
+<h1>You might also be looking for...</h1>
+  <div class="nsw-link-list">
+    <ul>
+      <li>
+        <a href="./about.html">
+          <span>About Harlon</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://store.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Server Store</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://helper.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Helper Application Form</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/HarlonServer" target="_blank" rel="noopener noreferrer">
+          <span>Harlon's GitHub Page</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/js/main.min.js"></script>
+<script>window.NSW.initSite()</script>
 </body>
 
-<footer class="ms-footer ms-small">
-  <div class="container">
-    <p>&copy; <b>Harlon City Server</b> - <a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noreferrer noopener">Discord</a> - <a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noreferrer noopener">YouTube</a> - <a href="https://twitter.com/HarlonServer" target="_blank" rel="noreferrer noopener">Twitter</a> - <a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noreferrer noopener">TikTok</a> - <a href="https://www.github.com/HarlonServer" target="_blank" rel="noreferrer noopener">GitHub</a></p>
+<footer class="nsw-footer nsw-footer--dark">
+  <div class="nsw-footer__lower">
+    <div class="nsw-container">
+      <p>IP: <strong>play.harlonserver.net</strong> - Minecraft 1.17 recommended.</p>
+      <hr>
+      <ul>
+        <li><a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noopener noreferrer">Discord</a></li>
+        <li><a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+        <li><a href="https://twitter.com/HarlonServer" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noopener noreferrer">Tiktok</a></li>
+        <li><a href="https://www.github.com/HarlonServer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://store.harlonserver.net" target="_blank" rel="noopener noreferrer">Donate</a></li>
+        <li><a href="./vote.html">Vote</a></li>
+        <li><a href="./credits.html">Credits</a></li>
+      </ul>
+      <div class="nsw-footer__info">
+        <div class="nsw-footer__copyright">Copyright © Harlon City Server</div>
+        <div class="nsw-footer__built">Based on the <a href="https://github.com/digitalnsw/nsw-design-system" target="_blank" rel="noopener noreferrer">NSW Design System</a></div>
+      </div>
+    </div>
   </div>
 </footer>
 
