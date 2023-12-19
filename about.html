@@ -1,113 +1,17 @@
-<!doctype html>
-<html class="js" lang="en">
+---
+layout: layout.html
+title: About
+og_content: Meet the staff behind HCS, the amazing patrons who have made a financial contribution and read about our server's history.
+permalink: "about.html"
+hero_image: https://harlonserver.net/img/slideshow-3.png
+---
 
-<head>
-  <meta charset="utf-8">
-  <title>About | Harlon City Server</title>
-  <meta name="description" content="Meet the staff behind HCS, the amazing patrons who have made a financial contribution and read about our server's history.">
-
-  <meta property="og:title" content="About | Harlon City Server">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://harlonserver.net">
-  <meta name="og:description" content="Meet the staff behind HCS, the amazing patrons who have made a financial contribution and read about our server's history.">
-  <meta property="og:image" content="https://harlonserver.net/img/slideshow-3.png">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="apple-touch-icon" href="favicon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/css/main.css">
-  <link rel="stylesheet" href="css/hcs.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <nav class="nsw-skip nsw-skip--light" aria-label="Skip to links">
-    <a href="#"><span>Skip to navigation</span></a>
-    <a href="#"><span>Skip to content</span></a>
-  </nav>
-  <div class="nsw-masthead nsw-masthead--light">
-    <div class="nsw-container"><strong>IP: play.harlonserver.net (Minecraft 1.17 recommended)</strong></div>
-  </div>
-
-  <header class="nsw-header">
-    <div class="nsw-header__container">
-      <div class="nsw-header__inner">
-        <div class="nsw-header__main">
-          <div class="nsw-header__waratah">
-            <a href="./index.html">
-              <img src="favicon.ico" width="64px" height="64px"/>
-              <span class="sr-only">Harlon City Server</span>
-            </a>
-          </div>
-          <div class="nsw-header__name">
-            <div class="nsw-header__title">Harlon City Server</div>
-          </div>
-        </div>
-        <div class="nsw-header__menu">
-          <button type="button" class="js-open-nav" aria-expanded="false" aria-controls="main-nav">
-            <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">menu</span>
-            <span><span class="sr-only">Open</span> Menu</span>
-          </button>
-        </div>
-      </div>
-  </header>
-  <nav class="nsw-main-nav" id="main-nav" aria-label="Main menu">
-    <div class="nsw-main-nav__header">
-      <div class="nsw-main-nav__title">Menu</div>
-      <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
-        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
-        <span class="sr-only">Close Menu</span>
-      </button>
-    </div>
-    <ul class="nsw-main-nav__list">
-      <li>
-        <a href="./index.html">
-          <span>Home</span>
-        </a>    </li>
-      <li>
-        <a href="./start-here.html">
-          <span>Start Here</span>
-          </a>    </li>
-      <li>
-        <a href="./about.html">
-          <span>About</span>
-        </a>    </li>
-      <li>
-        <a href="https://ht.harlonserver.net" target="_blank" rel="noopener noreferrer">
-          <span>HarlonTransit</span>
-        </a>    </li>
-  <!--<li>
-          <a href="https://dynmap.harlonserver.net" target="_blank" rel="noopener noreferrer">
-            <span>Government</span>
-          </a>    </li>-->
-      <li>
-        <a href="https://wiki.harlonserver.net" target="_blank" rel="noopener noreferrer">
-          <span>Wiki</span>
-        </a>    </li>
-      <li>
-        <a href="https://dynmap.harlonserver.net" target="_blank" rel="noopener noreferrer">
-          <span>Dynmap</span>
-        </a>    </li>
-        <li>
-          <a href="./vote.html">
-            <span>Vote</span>
-          </a>    </li>
-        
-    </ul>
-  </nav>
-</head>
-
-<body>
-
-  <!-- Add your site or application content here -->
   <div class="nsw-hero-banner nsw-hero-banner--dark">
     <div class="nsw-hero-banner__container">
       <div class="nsw-hero-banner__wrapper">
         <div class="nsw-hero-banner__content">
-          <h1>About</h1>
-          <p class="nsw-intro">Meet the staff behind HCS, the amazing patrons who have made a financial contribution and read about our server's history.</p>
+          <h1>{{title}}</h1>
+          <p class="nsw-intro">{{og_content}}</p>
         </div>
         <div class="nsw-hero-banner__box">
           <img class="nsw-hero-banner__image" src="./img/slideshow-3.png" alt="Ships at Seaporte." />
@@ -894,31 +798,3 @@
 </div>
 </div>
 </div>
-    
-<script src="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/js/main.min.js"></script>
-<script>window.NSW.initSite()</script>
-</body>
-
-<footer class="nsw-footer nsw-footer--dark">
-  <div class="nsw-footer__lower">
-    <div class="nsw-container">
-      <p>IP: <strong>play.harlonserver.net</strong> - Minecraft 1.17 recommended.</p>
-      <hr>
-      <ul>
-        <li><a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noopener noreferrer">Discord</a></li>
-        <li><a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-        <li><a href="https://twitter.com/HarlonServer" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-        <li><a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noopener noreferrer">Tiktok</a></li>
-        <li><a href="https://www.github.com/HarlonServer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        <li><a href="https://store.harlonserver.net" target="_blank" rel="noopener noreferrer">Server Store</a></li>
-        <li><a href="./vote.html">Vote</a></li>
-        <li><a href="./credits.html">Credits</a></li>
-      </ul>
-      <div class="nsw-footer__info">
-        <div class="nsw-footer__copyright">Copyright © Harlon City Server</div>
-        <div class="nsw-footer__built">Based on the <a href="https://github.com/digitalnsw/nsw-design-system" target="_blank" rel="noopener noreferrer">NSW Design System</a></div>
-      </div>
-    </div>
-  </div>
-</footer>
-</html>
