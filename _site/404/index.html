@@ -1,15 +1,16 @@
+
 <!doctype html>
 <html class="js" lang="en">
 
 <head>
   <meta charset="utf-8">
   <title>Page not found | Harlon City Server</title>
-  <meta name="description" content="Page not found">
-
+  <meta name="description" content="You might have typed the URL incorrectly, or the page you are looking for may have been moved or deleted. Try these links to see if you can find what you're looking for.">
   <meta property="og:title" content="Page not found | Harlon City Server">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://harlonserver.net">
-  <meta name="og:description" content="Page not found">
+  <meta name="og:description" content="You might have typed the URL incorrectly, or the page you are looking for may have been moved or deleted. Try these links to see if you can find what you're looking for.">
+  <meta property="og:image" content="https://harlonserver.net/img/hero.png">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="icon" href="favicon.ico" sizes="any">
@@ -59,15 +60,15 @@
     </div>
     <ul class="nsw-main-nav__list">
       <li>
-        <a href="./index.html">
+        <a href="index">
           <span>Home</span>
         </a>    </li>
       <li>
-        <a href="./start-here.html">
+        <a href="start-here">
           <span>Start Here</span>
           </a>    </li>
       <li>
-        <a href="./about.html">
+        <a href="about">
           <span>About</span>
         </a>    </li>
       <li>
@@ -87,18 +88,29 @@
           <span>Dynmap</span>
         </a>    </li>
         <li>
-          <a href="./vote.html">
+          <a href="vote">
             <span>Vote</span>
           </a>    </li>
         
     </ul>
   </nav>
+  <div class="nsw-global-alert nsw-global-alert--light js-global-alert" role="alert">
+    <div class="nsw-global-alert__wrapper">
+      <div class="nsw-global-alert__content">
+        <div class="nsw-global-alert__title">Server Store Currently Closed</div>
+        <p>Please note that the Server Store is closed whilst we conduct a review of our server's compliance with Mojang's Terms of Use and Usage Guidelines. We apologise for any inconvenience caused. The Harlon City Server team wish you and your family a safe and happy holiday season. </p>
+      </div>
+      <button class="nsw-icon-button js-close-alert" type="button" aria-expanded="true">
+        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+        <span class="sr-only">Close message</span>
+      </button>
+    </div>
+  </div>
+  
 </head>
 
 <body>
-
-  <!-- Add your site or application content here -->
-  <div class="nsw-hero-banner nsw-hero-banner--dark">
+    <div class="nsw-hero-banner nsw-hero-banner--dark">
     <div class="nsw-hero-banner__container">
       <div class="nsw-hero-banner__wrapper">
         <div class="nsw-hero-banner__content">
@@ -122,6 +134,15 @@
       </div>
     </div>
   </div>
+
+
+
+  <br>
+<script src="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/js/main.min.js"></script>
+<script>window.NSW.initSite()</script>
+
+<button type="button" class="nsw-button nsw-button--dark nsw-button--flex nsw-back-to-top js-back-to-top"> </button>
+
 </body>
 
 <footer class="nsw-footer nsw-footer--dark">
@@ -132,16 +153,16 @@
       <ul>
         <li><a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noopener noreferrer">Discord</a></li>
         <li><a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-        <li><a href="https://twitter.com/HarlonServer" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://twitter.com/HarlonServer" target="_blank" rel="noopener noreferrer">X/Twitter</a></li>
         <li><a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noopener noreferrer">Tiktok</a></li>
         <li><a href="https://www.github.com/HarlonServer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         <li><a href="https://store.harlonserver.net" target="_blank" rel="noopener noreferrer">Server Store</a></li>
-        <li><a href="./vote.html">Vote</a></li>
-        <li><a href="./credits.html">Credits</a></li>
+        <li><a href="vote">Vote</a></li>
+        <li><a href="credits">Credits</a></li>
       </ul>
       <div class="nsw-footer__info">
-        <div class="nsw-footer__copyright">Copyright © Harlon City Server</div>
-        <div class="nsw-footer__built">Based on the <a href="https://github.com/digitalnsw/nsw-design-system" target="_blank" rel="noopener noreferrer">NSW Design System</a></div>
+        <div class="nsw-footer__copyright">Copyright © Harlon City Server. NOT AN OFFICIAL MINECRAFT SERVER. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT CORPORATION.</div>
+        <div class="nsw-footer__built">Powered by the <a href="https://digitalnsw.github.io/nsw-design-system/" target="_blank" rel="noopener noreferrer">NSW Design System,</a><a href="https://html5boilerplate.com/" target="_blank" rel="noopener noreferrer">HTML5 Boilerplate</a>and <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy.</a></div>
       </div>
     </div>
   </div>
