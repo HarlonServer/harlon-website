@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
