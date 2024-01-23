@@ -3,6 +3,7 @@
 <html class="js" lang="en">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8">
   <title>Home | Harlon City Server</title>
   <meta name="description" content="Welcome to Harlon. A City-RP Minecraft server with a flourishing community and amazing player experiences.">
@@ -35,7 +36,7 @@
         <div class="nsw-header__main">
           <div class="nsw-header__waratah">
             <a href="./index.html">
-              <img src="favicon.ico" width="64px" height="64px"/>
+              <img src="favicon.ico" alt="" width="64px" height="64px"/>
               <span class="sr-only">Harlon City Server</span>
             </a>
           </div>
