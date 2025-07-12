@@ -1,0 +1,2 @@
+# harlon-website
+The main website for Harlon City Server, a public City-RP Minecraft server. This site uses the [NSW Design System (NSWDS)](https://designsystem.nsw.gov.au/), with modifications to match server branding. It is built with the [Eleventy (11ty) static site generator](https://www.11ty.dev/), and hosted on [GitHub Pages](https://pages.github.com), and uses the [HTML5 Boilerplate](https://html5boilerplate.com/) as its structure.
