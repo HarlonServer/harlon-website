@@ -11,7 +11,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://harlonserver.net">
   <meta name="og:description" content="Welcome to Harlon. A City-RP Minecraft server with a flourishing community and amazing player experiences.">
-  <meta property="og:image" content="/img/skyline.png">
+  <meta property="og:image" content="/img/victoria-north-botanical-garden.png">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -78,6 +78,10 @@
           <span>HarlonTransit</span>
         </a>    </li>
       <li>
+        <a href="https://hn.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Harlonian National</span>
+        </a>    </li>
+      <li>
         <a href="https://wiki.harlonserver.net" target="_blank" rel="noopener noreferrer">
           <span>Wiki</span>
         </a>    </li>
@@ -95,18 +99,19 @@
           </a>    </li>
     </ul>
   </nav>
-  <!--<div class="nsw-global-alert nsw-global-alert--light js-global-alert" role="alert">
+  <div class="nsw-global-alert nsw-global-alert--light js-global-alert" role="alert">
     <div class="nsw-global-alert__wrapper">
       <div class="nsw-global-alert__content">
-        <div class="nsw-global-alert__title">Minecraft 1.20.4 Upgrade</div>
-        <p>We have now upgraded to Minecraft version 1.20.4. Please note that <strong>backward compatibility with older versions of Minecraft has been removed</strong> - you can now only join the server with version 1.20.4. Forward compatibility will continue to be provided once new versions of Minecraft are released.</p>
+        <div class="nsw-global-alert__title">Are you ready? Harlon's national railway launches <span id="event-local"> </span></div>
+        <p>Harlonian National's very first line, the East Coast Mainline (ECML), will bring the City of Harlon closer to the Sealand region and the City of Victoria with HN's regional and intercity trains. There's more than just better connectivity, though - the ECML brings new, well-paid job opportunities. Why not become one of the first to operate the new line?</p>
+        <p><a href="https://hn.harlonserver.net/ecml" target="_blank" rel="noopener noreferrer">Learn more about the ECML</a> || <a href="https://hn.harlonserver.net/careers#available-opportunities" target="_blank" rel="noopener noreferrer">View ECML job opportunities</a></p>
       </div>
       <button class="nsw-icon-button js-close-alert" type="button" aria-expanded="true">
         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
         <span class="sr-only">Close message</span>
       </button>
     </div>
-  </div>-->
+  </div>
   
 </head>
 
@@ -121,7 +126,7 @@
           <a href="https://discord.gg/qMmk8MuEBz" class="nsw-button nsw-button--white" target="_blank" rel="noreferrer noopener">Join our Discord Server</a></p>
         </div>
         <div class="nsw-hero-banner__box">
-          <img class="nsw-hero-banner__image" src="/img/skyline.png" alt="Image of the Harlon City skyline." />
+          <img class="nsw-hero-banner__image" src="/img/victoria-north-botanical-garden.png" alt="An image of the botanical gardens at Victoria North Station on the East Coast Mainline (ECML)." />
         </div>
       </div>
     </div>
@@ -249,15 +254,15 @@
   <h1>You might also be looking for...</h1>
   <div class="nsw-link-list">
     <ul>
-      <!--<li>
-        <a href="#">
-          <span>Government/State Websites</span>
-          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
-        </a>
-      </li>-->
       <li>
         <a href="https://ht.harlonserver.net" target="_blank" rel="noopener noreferrer">
-          <span>Public Transport Information</span>
+          <span>HarlonTransit (public transport within the City of Harlon)</span>
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://hn.harlonserver.net" target="_blank" rel="noopener noreferrer">
+          <span>Harlonian National (national mainline rail services)</span>
           <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
         </a>
       </li>
@@ -273,12 +278,12 @@
           <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
         </a>
       </li>
-      <li>
+      <!--<li>
         <a href="https://discord.gg/yx5czgXVtn" target="_blank" rel="noopener noreferrer">
           <span>United Nations Discord Server</span>
           <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
         </a>
-      </li>
+      </li>-->
     </ul>
   </div>
   </div>
@@ -291,7 +296,21 @@
 <script src="https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/js/main.min.js"></script>
 <script>window.NSW.initSite()</script>
 
+<script>
+  // UTC instant
+  const utcIso = '2026-02-01T12:00:00Z'; // 12:00 UTC
 
+  // Create Date from UTC instant
+  const instant = new Date(utcIso);
+
+  // Format for visitor's locale/timezone
+  const formatted = new Intl.DateTimeFormat(undefined, {
+    dateStyle: 'long',
+    timeStyle: 'short'
+  }).format(instant);
+
+  document.getElementById('event-local').textContent = formatted;
+</script>
 
 </body>
 
@@ -303,8 +322,8 @@
       <ul>
         <li><a href="https://discord.gg/qMmk8MuEBz" target="_blank" rel="noopener noreferrer">Discord</a></li>
         <li><a href="https://youtube.com/channel/UCUsBniuYo4fKNWy-PcAoDNg" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-        <li><a href="https://twitter.com/HarlonServer" target="_blank" rel="noopener noreferrer">X/Twitter</a></li>
-        <li><a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noopener noreferrer">Tiktok</a></li>
+        <li><a href="https://x.com/HarlonServer" target="_blank" rel="noopener noreferrer">X</a></li>
+        <li><a href="https://www.tiktok.com/@harlonserver" target="_blank" rel="noopener noreferrer">TikTok</a></li>
         <li><a href="https://www.github.com/HarlonServer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         <li><a href="https://store.harlonserver.net" target="_blank" rel="noopener noreferrer">Server Store</a></li>
         <li><a href="vote">Vote</a></li>
